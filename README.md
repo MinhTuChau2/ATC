@@ -1,6 +1,6 @@
 https://www.youtube.com/watch?v=iU6O3JZoo2Q <br/>
-- **COEN 320 - Air Traffic Control (ATC) System** -<br/> 
-- **Overview** - <br/>
+-**COEN 320 - Air Traffic Control (ATC) System**- <br/> 
+-**Overview**- <br/>
 This project implements a simplified real-time Air Traffic Control (ATC) system for monitoring and controlling aircraft in the en-route airspace. The system is designed to simulate the management of aircraft flows in a 3D airspace, focusing on ensuring safety and maintaining proper separation between aircraft. The project is developed in C/C++ and tested on the QNX real-time operating system.
 
 Key Features:
@@ -86,26 +86,26 @@ Operator Commands: Logs all commands issued by the operator (e.g., request to ch
 Architecture
 The system is designed using multiple independent QNX processes that communicate via shared memory. The primary subsystems include:
 
--Radar Subsystem
+- Radar Subsystem
 
--Computer System
+- Computer System
 
--Operator Console
+- Operator Console
 
--Data Display
+- Data Display
 
--Communication System
+- Communication System
 
 Shared Memory Architecture:
--All subsystems exchange data using POSIX shared memory for synchronization and data consistency.
+- All subsystems exchange data using POSIX shared memory for synchronization and data consistency.
 
--Radar Subsystem: Tracks aircraft and provides position data.
+- Radar Subsystem: Tracks aircraft and provides position data.
 
--Computer System: Checks for separation violations and triggers alerts.
+- Computer System: Checks for separation violations and triggers alerts.
 
--Operator Console: Receives inputs from the user (controller).
+- Operator Console: Receives inputs from the user (controller).
 
--Data Display: Visualizes the current airspace and aircraft data.
+- Data Display: Visualizes the current airspace and aircraft data.
 
--Communication System: Simulates message transmission to aircraft.
+- Communication System: Simulates message transmission to aircraft.
 
