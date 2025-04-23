@@ -1,5 +1,5 @@
-#COEN 320 - Air Traffic Control (ATC) System
-#Overview
+**COEN 320 - Air Traffic Control (ATC) System**
+**Overview**
 This project implements a simplified real-time Air Traffic Control (ATC) system for monitoring and controlling aircraft in the en-route airspace. The system is designed to simulate the management of aircraft flows in a 3D airspace, focusing on ensuring safety and maintaining proper separation between aircraft. The project is developed in C/C++ and tested on the QNX real-time operating system.
 
 Key Features:
