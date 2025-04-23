@@ -67,7 +67,7 @@ SpeedX, SpeedY, SpeedZ: Speed components in each coordinate dimension.
 
 Example input format:
 
-ID X Y Z SpeedX SpeedY SpeedZ
+ID X Y Z SpeedX SpeedY SpeedZ <br/>
 1 15 10 10  -0.1  0   0 <br/>
 2 5  10 10  0.1  0   0 <br/>
 3 5  5  5    0.2    0.1   0 <br/>
