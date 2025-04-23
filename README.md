@@ -68,10 +68,10 @@ SpeedX, SpeedY, SpeedZ: Speed components in each coordinate dimension.
 Example input format:
 
 ID X Y Z SpeedX SpeedY SpeedZ
-1 15 10 10  -0.1  0   0
-2 5  10 10  0.1  0   0
-3 5  5  5    0.2    0.1   0
-4 10 15 8    0.1    0.1   0
+1 15 10 10  -0.1  0   0 <br/>
+2 5  10 10  0.1  0   0 <br/>
+3 5  5  5    0.2    0.1   0 <br/>
+4 10 15 8    0.1    0.1   0 <br/>
 
 Output:
 Aircraft Information: Logs the current state of each aircraft (ID, position, speed, etc.).
